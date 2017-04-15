@@ -68,16 +68,21 @@ header p {
     padding: 30px 30px;
     display: block;
 }
+
 .section-container {
     width: 100%;
     margin-top: 100px;
     display: block;
-   
 }
+
 .section {
-    padding: 20px;
+   padding: 20px;
     width: 960px;
     text-align: center;
+    height: 450px;
+    position: relative;
+    vertical-align: middle;
+    margin: 100px;
 }
 
 .article1 {
@@ -90,6 +95,7 @@ header p {
     font-family: "myungjo";
     color: gray;
     margin: 10px;
+    vertical-align: middle;
 }
 .article2 {
     background-image: url("냠냠1.bmp");
@@ -101,6 +107,7 @@ header p {
     font-family: "myungjo";
     color: gray;
     margin: 10px;
+    vertical-align: middle;
 }
 
 .article3 {
@@ -113,6 +120,7 @@ header p {
     font-family: "myungjo";
     color: gray;
     margin: 10px;
+    vertical-align: middle;
 }
 .footer {
     width: 100%;
