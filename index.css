@@ -72,68 +72,25 @@ header p {
     padding: 30px 30px;
     display: block;
 }
-.container {
+.row {
     width: 100%;
     margin-top: 70px;
     display: block;
     margin: 100px 400px;
 }
-.section {
-    padding: 10px;
-    width: 990px;
-    display: inline-block; 
-}
-article {
-    width: 270px;
-    height: 400px;
-    display: inline-block;
-    margin: 200px;
+.card-content {
+    text-align: center;
     color: gray;
-}
-
-article1 {
-    background-image:url("발.jpg");
-    width: 300px;
-    height: 400px;
-    background-position: center;
-    background-size: cover;
-    display: inline-block;
+    font-size: 15px;
     font-family: "MYUNGJO";
-    color: NAVY;
-    display: inline-block;
 }
 
-article2 {
-    background-image: url("냠냠.jpg");
-    width: 300px;
-    height: 400px;
-    background-position: center;
-    background-size: cover;
-    display: inline-block;
-    font-family: "MYUNGJO";
-    color: navy;
-   
-}
-
-
-article3 {
-    background-image: url("영화.jpg");
-    width: 300px;
-    height: 400px;
-    background-position: center;
-    background-size: cover;
-    display: inline-block;
-    font-family: "MYUNGJO";
-    color: white;
-    margin: 10px;
-}
-footer {
+.footer {
     width: 100%;
-    padding-top: 30px;
+    padding-top: 20px;
     text-align: center;
     color: white;
     font-size: 15px;
     background-color: black;
     
 }
-
